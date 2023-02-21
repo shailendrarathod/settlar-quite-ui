@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+
+@media (max-width:920px){
+    .nav ul li{
+        display: none;
+    }
+    .navbar-list-ul{
+        width: 100%;
+    }
+    .nav ul button{
+        width: 90px;
+    }
+   
+    .nav ul button a{
+        font-size: 12px;
+    }
+}
+.navbar{
+background-image: url( https://png.pngtree.com/png-clipart/20200321/ourmid/pngtree-beautiful-night-glowing-moon-png-image_2162960.png);
+background-position: center;
+background-size: cover;
+}
+.navbar-list-ul{
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.nav li a{
+    text-decoration: none;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav li a:hover{
+    color: rgba(109, 103, 103, 0.49);
+    border-bottom: 1px solid rgba(234, 194, 236, 0.8) ;
+}
+.nav button a{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Asap Condensed', sans-serif;
+}
+.nav button a:hover{
+    color: rgba(22, 20, 20, 0.49);
+}
+.nav button:hover{
+    background-color: rgba(234, 194, 236, 0.8);
+}
+.nav button{
+    padding: 0px 9px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(234, 194, 236, 0.5);
+}
+.nav{
+    /* background-color: antiquewhite; */
+    display: flex;
+    width:57%;
+}
+.container-fluid a{
+    color: white;
+}
+
+               /*Hero-Section*/
+
+@media(max-width:950px){
+    .hero-img{
+        width: 100%;
+        align-items: center;
+        display: flex;
+        height: auto;
+        flex-direction: column;
+    }
+    .hero-des{
+        min-width: 100%;
+        height: auto;
+    }
+    .hero-text{
+       min-width: 100%;
+    }
+    .logo-text{
+        min-width: 100%;
+        margin-top: 10px;
+    }
+    .img{
+        min-width: 100%;
+    }
+    .img img{
+        width:100%
+    }
+}
+.hero-des{
+    width:50%;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    padding: 40px;
+}
+.hero-img{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.hero-text{
+    /* background-color: brown; */
+    display: flex;
+    width: 60%;
+}
+.hero-text h1{
+    font-family: 'Asap Condensed', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+}
+.img{
+    width: 50%;
+    /* height: 480px; */
+    display: flex;
+    align-items: center;
+}
+.img img{
+    width: 100%;
+}
+
+.logo-text{
+    width: 84%;
+    height: auto;
+    display: flex;
+    /* background-color: blue; */
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+.logo-text h1{
+    color: white;
+    font-size:20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+.logo-text p{
+    color: white;
+    font-size: 12px;
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+                            /*Logo-detail*/
+
+@media (max-width:800px){
+    .logo-detail{
+        height:100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .logo-img{
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.logo-detail{
+    height:120%;
+    width: 100%;
+    border-bottom: 1px solid rgba(58, 60, 161, 0.158);
+    border-width: 5px;
+}
+.logo-img{
+    display: flex;
+    padding-top: 30px;
+    /* background-color: cadetblue; */
+    justify-content:space-evenly;
+}
+.logo p{
+    color: white;
+    text-align: center;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+/* .logo{
+    width:%;
+} */
+
+.logo img{
+    height:130px;
+    width: 100%;
+}
+
+                      /*Astronaut section*/
+
+
+.astronaut-text h1{
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 37px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.astronaut-text p{
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 80%;
+}
+.astronaut-section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    border-bottom: 1px solid rgba(58, 60, 161, 0.195);
+    border-width: 5px;
+}
+.ast-img img{
+    width:70%;
+}
+.ast-img{
+    width:40%;
+    height: auto;
+}
+.astronaut-text{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media (max-width:768px){
+    .astronaut-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .ast-img{
+        width:100%;
+    }
+    .ast-img img{
+        width:100%;
+    }
+    .astronaut-text{
+        width: 100%;
+    }
+}
+
+
+                        /*Moon section*/
+
+
+.moon-text h1{
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 37px;
+    width:60%;
+    font-weight: 600;
+}
+.moon-text p{
+    color: white;
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    width: 60%;
+}
+.moon-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 120%;
+    border-bottom: 1px solid rgba(58, 59, 161, 0.043);
+    border-width: 5px;
+}
+.moon-img img{
+    width:70%;
+}
+.moon-img{
+    width:40%;
+    height: auto;
+}
+.moon-text{
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+@media (max-width:768px){
+    .moon-section{
+        display: flex;
+        flex-direction: column-reverse; 
+        /* align-items: center;
+        justify-content: center; */
+        width: 100%;
+    }
+    .moon-img{
+        width:100%;
+    }
+    .moon-img img{
+        width: 100%;
+    }
+    .moon-text{
+        width: 100%;
+    }
+    .moon-text h1{
+        width: 100%;
+        font-size: 30px;
+    }
+    .moon-text p{
+        width: 100%;
+    }
+}
+
+                    /*Accordion-Section*/
+
+.accordion-button {
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: rgb(105, 213, 253);
+}
+.accordion-button h5{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+.accordion-body h5{
+    font-size: 11px;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-family: 'Comfortaa', cursive;
+}
+.accordion{
+    height:120%;
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accordion-collapse{
+    background-color: rgba(239, 244, 254, 0.841);
+}
+.accordion-item{
+    width:60%;
+    margin-bottom: 15px;
+}
+/* .accordion-button{
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: black;
+} */
+.foot-head h1{
+    color:white;
+    font-size:20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+@media(max-width:350px) {
+    .accordion{
+        height: 120%;
+    }
+}
+.footer-last-btn{
+    width: 20%;
+    padding:9px 5px;
+    border-radius: 5px;
+    background-color: rgba(119, 167, 244, 0.841);
+}
+.footer-last-btn a{
+    text-decoration: none;
+    color: rgb(243, 237, 237);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+@media (max-width:768px){
+.footer-last-btn{
+    width: 100%;
+}
+.accordion-item{
+    width: 100%;
+}
+}
+.footer-last-btn:hover{
+    background-color: rgba(104, 106, 226, 0.591);
+}
+.footer-last-btn a:hover{
+    color: rgba(6, 0, 0, 0.664);
+}
